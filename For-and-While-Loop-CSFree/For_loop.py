@@ -38,3 +38,29 @@ else:
     result = calculate_factorial(number)
     print(f"The factorial of {number} is: {result}")
     
+# 5. Write a Python function that uses a for loop to count the number of vowels in a given word.
+def count_vowels(word):
+    #Counts the number of vowels in a given word using a for loop.
+
+    vowels = "aeiou"
+    vowel_count = 0
+
+    for char in word:
+        if char in vowels:
+            vowel_count += 1
+
+    return vowel_count
+word = input("Enter a word: ")  
+# Get user input for a more interactive experience
+vowel_count = count_vowels(word)
+print(f"The word {word} has {vowel_count} vowels.")
+
+# 6. Develop a program using a for loop to find the largest element in a list of numbers.
+
+# 7. Create a Python script that utilizes a for loop to generate the Fibonacci sequence up to the 20th term.
+
+# 8. Write a program that uses a for loop to print the reverse of a given string.
+
+# 9. Develop a Python script that uses a for loop to find and print prime numbers within a given range.
+
+# 10. Implement a program with a for loop to calculate the average of a list of numbers.
