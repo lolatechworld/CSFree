@@ -15,7 +15,12 @@ for no in range (2, 101, 2):
 for multiplication_no in range(7):
     multiplication_no *= 7
     print("multiplication_no of 7 is: ", multiplication_no)
+n = int(input("Enter a number :"))
 
+for i in range(1, 13):
+    result = n * i
+    print(f"{n} x {i} = {result}")
+    
 # 4. write a Python program with a for loop to find and print the factorial of a given number.
 # Function to calculate factorial using a for loop
 def calculate_factorial(f):
@@ -55,12 +60,22 @@ word = input("Enter a word: ")
 vowel_count = count_vowels(word)
 print(f"The word {word} has {vowel_count} vowels.")
 
-# 6. Develop a program using a for loop to find the largest element in a list of numbers.
+# 6. Generating a sequence of or find the factorial of a given numbers
+n = int(input("Enter a number: "))
+factorial_result = 1 # if factorial_result = 3
+# 3*2*1
+# 3*2*1
+# 3*2*1 if the factorial result = (3 + 3)
+for i in range(1, n + 1):
+    factorial_result += i
+print(f"The factorial on {n} is: {factorial_result} ")
 
-# 7. Create a Python script that utilizes a for loop to generate the Fibonacci sequence up to the 20th term.
+# 7. Develop a program using a for loop to find the largest element in a list of numbers.
 
-# 8. Write a program that uses a for loop to print the reverse of a given string.
+# 8. Create a Python script that utilizes a for loop to generate the Fibonacci sequence up to the 20th term.
 
-# 9. Develop a Python script that uses a for loop to find and print prime numbers within a given range.
+# 9. Write a program that uses a for loop to print the reverse of a given string.
 
-# 10. Implement a program with a for loop to calculate the average of a list of numbers.
+# 10. Develop a Python script that uses a for loop to find and print prime numbers within a given range.
+
+# 11. Implement a program with a for loop to calculate the average of a list of numbers.
