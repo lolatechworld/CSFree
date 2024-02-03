@@ -1,14 +1,35 @@
-# Define a class for a simple Animal
+# Define a class for a student in respect to oop
 class Student:
-    def __init__(self, name):
+    def __init__(self, name, age, sex):
         self.name = name
-    
-    def make_sound(self):
-        print("Student name is: ")
+        self.age = age
+        self.sex = sex
 
-# Create instances (objects) of the Animal class
-lion = Student(name="Dami")
+    def print_info(self):
+        print("Student name is:", self.name)
+        print("Student age is:", self.age)
+        print("Student sex is:", self.sex)
+# Creating an instance (object) of the Student class
+student1 = Student(name="Lola", age=15, sex="Female")
 
-# Use the objects
-lion.make_sound()   # Output: Some generic animal sound
-#Encapsulation: in oop the group related variables and functions that operate on them 
+# Using the object to print student information
+student1.print_info()
+
+
+class Student:
+    def __init__(self):
+        self.name = input("Enter student name: ")
+        self.age = int(input("Enter student age: "))
+        self.sex = input("Enter student sex: ")
+
+    def print_info(self):
+        print("Student name is:", self.name)
+        print("Student age is:", self.age)
+        print("Student sex is:", self.sex)
+
+# Creating an instance (object) of the Student class
+student1 = Student()
+
+# Using the object to print student information
+student1.print_info()
+

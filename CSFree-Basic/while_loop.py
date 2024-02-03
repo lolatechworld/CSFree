@@ -8,9 +8,9 @@ while True:
     print("3. View Balance")
     print("4. Exit")
 
-    choice = int(input("Enter your choice (1-4): "))
+    choice = (input("Enter your choice (1-4): "))
 
-    if choice == 1:
+    if choice.isdigit() == 1:
         income_amount = float(input("Enter the income amount: "))
         balance += income_amount
         print(f"income of ${income_amount} added. Updated balance: ${balance}")
