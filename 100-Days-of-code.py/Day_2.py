@@ -18,7 +18,7 @@ print(two_digit_number)
 
 ####################################
 
-# Function to calculate BMI
+# 2. Function to calculate BMI
 height = 1.65
 weight = 72
 
@@ -33,3 +33,19 @@ def calculate_bmi(height, weight):
     return bmi
 result = calculate_bmi(height, weight)
 print(result)
+
+# 3.
+age = input("what is your age? ")
+# 🚨 Don't change the code above 👆
+# age_as_int = int(age)
+# years_remaining = 90 - age_as_int
+years_remaining = 90 - int(age)
+weeks_remaining = years_remaining * 52
+print(f"you have {weeks_remaining} weeks left")
+
+age = input()
+# Your code below this line 👇
+years = 90 - int(age)
+weeks = years * 52
+
+print(f"You have {weeks} weeks left.")
