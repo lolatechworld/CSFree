@@ -34,7 +34,7 @@ def calculate_bmi(height, weight):
 result = calculate_bmi(height, weight)
 print(result)
 
-# 3.
+# 3. Calculate remaining weeks spent on earth
 age = input("what is your age? ")
 # 🚨 Don't change the code above 👆
 # age_as_int = int(age)
