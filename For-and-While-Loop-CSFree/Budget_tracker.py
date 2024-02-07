@@ -8,28 +8,28 @@ while True:
     print("3. View Balance")
     print("4. Exit")
     try:
-        choice = (input("Enter your choice (1-4): "))
+        size = (input("Enter your size (1-4): "))
     except ValueError:
         print("Invalid input. Please enter a valid number.")
         continue # skip the rest of the loop and start OverflowError
     
 
-    if choice == 1:
+    if size == 1:
         income_amount = float(input("Enter the income amount: "))
         balance += income_amount
         print(f"income of ${income_amount} added. Updated balance: ${balance}")
 
-    elif choice == 2:
+    elif size == 2:
         expense_amount = float(input("Enter the expenses amount: "))
         balance  -= expense_amount
         print(f"Expense of ${expense_amount} deducted.")
 
-    elif choice == 3:
+    elif size == 3:
         print(f"current balance ${balance}")
 
-    elif choice == 4:
+    elif size == 4:
         print("Exit the budget tracker program")
         break
 
     else:
-        print("invalid choice. Please enter a number between 1-4")
+        print("invalid size. Please enter a number between 1-4")
