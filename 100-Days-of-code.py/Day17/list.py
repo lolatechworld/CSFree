@@ -13,4 +13,4 @@ print(states_of_america[-1])
 states_of_america[1] = "pencilvania"
 states_of_america.append("Hawaii") # to add an item to the end of your data
 states_of_america.extend(["Hawaii", "Alabama", "Michigan", "Florida" ]) # to add mulitiple items to the list
-print(states_of_america) 
+print(states_of_america)
