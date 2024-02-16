@@ -29,5 +29,13 @@ def calculate_total_cost(quantity, price_per_item):
     else:
         print("Error!")
         time.sleep(3)
+        print("Exiting program!")
+        quit()
+    print(f"The actual price before discount is {actual_price}")
+    print(f"The discounted price is:")
+    return total_cost
 
 
+print (calculate_total_cost(5, 20.3))
+print (calculate_total_cost(15, 40.5))
+print (calculate_total_cost(70, 50.7))
