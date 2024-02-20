@@ -17,6 +17,4 @@ goals = [75, 69, 85, 70]
 #len(goals)
 #range(len(goals));
 for i in range (len(goals)):#will print the index of the number
-    print(f"{i} = {goals[i]}")
-    
-    
+    print(f"{i} = {goals[i]}")    
