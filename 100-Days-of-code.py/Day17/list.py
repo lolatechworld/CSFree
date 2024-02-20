@@ -1,4 +1,9 @@
-# List is used to keep a set of data
+# list is a set of square bracket with lots of data stored inside 
+# it could also be a boolen and these data are seerated with a comma.
+# list has an order in which data are stored an can be referenced to.
+# e.g 0 is the first data on your list, which is known as index and 1 is the second e.t.c
+# -1 is the last e.t.c.
+
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", 
                      "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", 
                      "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", 
